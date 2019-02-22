@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
                 EditText secondNumEditText = (EditText) findViewById(R.id.secondNumEditText);
                 TextView resultTextView = (TextView) findViewById(R.id.resultTextView);
 
-                float num1 = Float.parseFloat(firstNumEditText.getText().toString());
-                float num2 = Float.parseFloat(secondNumEditText.getText().toString());
-                float result = num1 +num2;
+                Float num1 = Float.parseFloat(firstNumEditText.getText().toString());
+                Float num2 = Float.parseFloat(secondNumEditText.getText().toString());
+                Float result = num1 +num2;
                 resultTextView.setText(result + "");
 
             }
@@ -38,9 +38,9 @@ public class MainActivity extends AppCompatActivity {
                 EditText secondNumEditText = (EditText) findViewById(R.id.secondNumEditText);
                 TextView resultTextView = (TextView) findViewById(R.id.resultTextView);
 
-                float num1 = Float.parseFloat(firstNumEditText.getText().toString());
-                float num2 = Float.parseFloat(secondNumEditText.getText().toString());
-                float result = num1 - num2;
+                Float num1 = Float.parseFloat(firstNumEditText.getText().toString());
+                Float num2 = Float.parseFloat(secondNumEditText.getText().toString());
+                Float result = num1 - num2;
                 resultTextView.setText(result + "");
 
             }
@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity {
                 EditText secondNumEditText = (EditText) findViewById(R.id.secondNumEditText);
                 TextView resultTextView = (TextView) findViewById(R.id.resultTextView);
 
-                float num1 = Float.parseFloat(firstNumEditText.getText().toString());
-                float num2 = Float.parseFloat(secondNumEditText.getText().toString());
-                float result = num1 * num2;
+                Float num1 = Float.parseFloat(firstNumEditText.getText().toString());
+                Float num2 = Float.parseFloat(secondNumEditText.getText().toString());
+                Float result = num1 * num2;
                 resultTextView.setText(result + "");
 
             }
@@ -64,9 +64,9 @@ public class MainActivity extends AppCompatActivity {
                 EditText secondNumEditText = (EditText) findViewById(R.id.secondNumEditText);
                 TextView resultTextView = (TextView) findViewById(R.id.resultTextView);
 
-                float num1 = Float.parseFloat(firstNumEditText.getText().toString());
-                float num2 = Float.parseFloat(secondNumEditText.getText().toString());
-                float result = num1 / num2;
+                Float num1 = Float.parseFloat(firstNumEditText.getText().toString());
+                Float num2 = Float.parseFloat(secondNumEditText.getText().toString());
+                Float result = num1 / num2;
                 resultTextView.setText(result + "");
 
             }
